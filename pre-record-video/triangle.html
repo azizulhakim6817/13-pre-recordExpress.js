@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Triangle Page</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="circle"></a>Circle calculator</li>
+          <li><a href="triangle"></a>Tringle calculator</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Triangle Calculator</h1>
+      <form action="/triangle" method="POST">
+        <div>
+          <label for="base">Radius</label>
+          <input type="text" name="base" id="base" />
+        </div>
+        <div>
+          <label for="height">Height</label>
+          <input type="text" name="height" id="height" />
+        </div>
+        <button type="submit">Calculator</button>
+      </form>
+    </main>
+  </body>
+</html>
